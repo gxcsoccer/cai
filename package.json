@@ -1,0 +1,17 @@
+{
+  "name": "cai",
+  "version": "0.1.0",
+  "description": "CLI tool for agentic code search without AST/RAG, using grep-like scanning and OpenAI summarization.",
+  "main": "cli.js",
+  "bin": {
+    "cai": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "openai": "^4.6.1"
+  },
+  "license": "MIT"
+}
